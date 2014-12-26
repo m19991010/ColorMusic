@@ -1,0 +1,23 @@
+.circle {
+  display:block;
+  width:100px;
+  height:100px;
+  border: 3px solid black;
+  border-radius:50%;
+  -moz-border-radius: 50%; 
+  -webkit-border-radius: 50%;
+}
+#up,#down,#left,#right{
+  position:fixed;  
+}
+#up,#down {left:50%; margin-left:-50px}
+#up {top:0px}
+#down {bottom:0px}
+#left, #right { top:50%; margin-top:-50px }
+#left { left:0px }
+#right {  right:0px }
+.beat {
+  background-color:yellow;
+  border: 3px dotted black;
+  
+}
