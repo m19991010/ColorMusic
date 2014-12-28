@@ -7,7 +7,7 @@ function myCtrl($scope) {
   
   //models
   angular.extend($scope, {
-      beat : '按上下左右開始',
+      beat : 'none',
       keyCode : ''
     }  
   );  
