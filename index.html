@@ -14,7 +14,16 @@ Released under the MIT license: http://jsbin.mit-license.org
   <meta charset="utf-8">
   <title>節奏地基</title>
   
-  <link rel = "stylesheet" href="index.css"/>
+<!-- 已啟用compass  -->
+<!-- 請用compass watch自動編譯 -->
+<!-- 後續請編輯sass/screen.scss 而非 stylesheets/screen.css -->
+
+
+  <link href="./stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+  <link href="./stylesheets/print.css" media="print" rel="stylesheet" type="text/css" />
+  <!--[if IE]>
+      <link href="./stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+  <![endif]-->
 
 </head>
 <body ng-keydown = "keyDown($event)">
