@@ -1,0 +1,57 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 9, ../sass/screen.scss */
+.circle {
+  display: block;
+  width: 100px;
+  height: 100px;
+  border: 3px solid black;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+}
+
+/* line 18, ../sass/screen.scss */
+#up, #down, #left, #right {
+  position: fixed;
+}
+
+/* line 21, ../sass/screen.scss */
+#up, #down {
+  left: 50%;
+  margin-left: -50px;
+}
+
+/* line 22, ../sass/screen.scss */
+#up {
+  top: 0px;
+}
+
+/* line 23, ../sass/screen.scss */
+#down {
+  bottom: 0px;
+}
+
+/* line 24, ../sass/screen.scss */
+#left, #right {
+  top: 50%;
+  margin-top: -50px;
+}
+
+/* line 25, ../sass/screen.scss */
+#left {
+  left: 0px;
+}
+
+/* line 26, ../sass/screen.scss */
+#right {
+  right: 0px;
+}
+
+/* line 27, ../sass/screen.scss */
+.beat {
+  background-color: yellow;
+  border: 3px dotted black;
+}
